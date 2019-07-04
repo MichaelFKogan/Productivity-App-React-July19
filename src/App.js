@@ -1,10 +1,17 @@
 import React from 'react';
-import Component from './components/Component'
+
+import Time from './components/Time'
+import Date from './components/Date'
+
 
 function App() {
   return (
     
-    	<Component />
+    <div>
+    	
+    	<Time />
+    	<Date />
+    </div>
 
   );
 }
